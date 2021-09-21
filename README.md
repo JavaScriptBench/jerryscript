@@ -1,5 +1,31 @@
-![](https://github.com/jerryscript-project/jerryscript/blob/master/LOGO.png)
+
 # JerryScript: JavaScript engine for the Internet of Things
+
+=============================================
+
+Just
+
+```
+wget https://github.com/JavaScriptBench/jerryscript/archive/refs/tags/v2.4.0.zip
+unzip v2.4.0.zip
+cd jerryscript-2.4.0/
+python tools/build.py
+./build/bin/jerry --version
+```
+
+some options for build:
+```
+# change default heap size 512KB
+
+python tools/build.py --mem-heap=256
+```
+
+ref: 
+https://jerryscript.net/getting-started/
+
+===============================================
+
+
 [![License](https://img.shields.io/badge/licence-Apache%202.0-brightgreen.svg?style=flat)](LICENSE)
 [![GitHub Actions Status](https://github.com/jerryscript-project/jerryscript/workflows/JerryScript%20CI/badge.svg)](https://github.com/jerryscript-project/jerryscript/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/ct8reap35u2vooa5/branch/master?svg=true)](https://ci.appveyor.com/project/jerryscript-project/jerryscript/branch/master)
