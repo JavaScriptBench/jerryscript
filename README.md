@@ -17,7 +17,7 @@ some options for build:
 ```
 # change default heap size 512KB
 
-python tools/build.py --mem-heap=256
+python tools/build.py --mem-heap=512
 ```
 
 ref: 
